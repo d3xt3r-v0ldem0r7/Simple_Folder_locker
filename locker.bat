@@ -35,6 +35,7 @@ echo and paste in the location
 echo NOTE : [ it will create only one locker in
 echo 	   one location, you can't create another locker ]
 echo.
+echo created by iniyavan[d3xt3r]
 pause
 goto signup
 
@@ -76,6 +77,7 @@ echo.
 set/p "codeu=*        ENTER recovery code : "
 echo.
 echo.
+echo created by iniyavan[d3xt3r]
 echo --------------------------------------------
 IF ["%lpass%"] == [""] goto CERROR
 IF ["%lpass%"] == [" "] goto CERROR
@@ -134,6 +136,8 @@ echo.
 echo you want recoverpassword press 1.
 echo you want hide your files press 2. 
 echo or else you want login press 3.
+echo.
+echo created by iniyavan[d3xt3r]
 SET/p NUMBER=">>"
 IF %NUMBER%==1 GOTO recovery
 IF %NUMBER%==2 GOTO hideit
@@ -160,6 +164,7 @@ echo.
 SET/P "recde=*        Enter Recovery code : "
 echo.
 echo.
+echo created by iniyavan[d3xt3r]
 IF %recde%==%prec% goto cpass
 IF %recde% == [""] GOTO helpp
 IF %recde% == [" "] GOTO helpp
@@ -178,6 +183,7 @@ echo.
 set/p "codeu=*        ENTER recovery code : "
 echo.
 echo.
+echo created by iniyavan[d3xt3r]
 echo --------------------------------------------
 IF ["%lpass%"] == [""] goto CERRORR
 IF ["%lpass%"] == [" "] goto CERRORR
@@ -232,6 +238,7 @@ echo.
 set/p "lpass=*        Enter Password : "
 echo.
 echo.
+echo.created by iniyavan[d3xt3r]
 echo --------------------------------------------
 IF ["%lpass%"] == [""] goto CERRORRR
 IF ["%lpass%"] == [" "] goto CERRORRR
